@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Quinn Bush</title>
+<link rel="stylesheet" href="bootstrap-grid.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<style>
+    main
+    {background-color:rgba(0,0,100 ,.1)}
+    header
+    {background-color:rgba(0,0,100,.1)}
+    Body
+    {color:red;}
+  </style>
+</head>
+
+<body>
+  <main>
+<header>
+  <h1 class="text-dark"><center>
+
+  Quinn Bush - Grades</center></h1>
+</header>
+
+  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+     <li class="nav-item"><a class="nav-link" href="index.html">Home</a> </li>
+     <li class="nav-item"><a class="nav-link" href="pagetwo.html">Grades</a> </li>
+     <li class="nav-item"><a class="nav-link" href="pagethree.html">Information</a></li>
+     </ul>
+ </nav>
+
+    <table class="table table-dark table-striped">
+<thead>
+<tr>
+    <th>class</th>
+    <th>title</th>
+    <th>credits</th>
+    <th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>BUS-A201</td>
+    <td>Intro to financial accounting</td>
+    <td>3</td>
+    <td>&#36;1000</td>
+</tr>
+
+<tr>
+    <td>BUS-A202</td>
+    <td>Intro to managerial accounting</td>
+    <td>3</td>
+    <td>&#36;1000</td>
+
+</tr>
+
+<tr>
+    <td>BUS-A337</td>
+    <td>Accounting systems</td>
+    <td>3</td>
+    <td>&#36;1000</td>
+
+</tr>
+  <tr>
+    <td>BUS-A311</td>
+    <td>Intermediate accounting</td>
+    <td>3</td>
+    <td>&#36;1000</td>
+    </tr>
+    </tbody>
+<tfoot>
+<tr>
+    <td colspan="12"></td>
+    </tr>
+</tfoot>
+</table>
+<h3>New Course</h3>
+   <label> class:</label>
+    <input type="string" id="class">
+    <br>
+   <label>title: </label> <input type="string" id="title">
+    <br>
+   <label> credits:</label>
+    <input type="number" id="credits">
+    <br>
+   <label>Cost: </label> <input type="currency" id="cost">
+    <br>
+  </body>
+</main>
